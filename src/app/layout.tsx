@@ -10,6 +10,9 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "IEEE IGDTUW",
   description: "Official Website of IEEE IGDTUW",
+  icons: {
+    icon: "/favicon.ico?v=2", // Path to your logo image file
+  },
 };
 
 export default function RootLayout({
